@@ -478,7 +478,7 @@ const Sidebar = () => {
         </Link>
 
         <Link
-          to="/"
+          to="/logOut"
           className={`group relative flex items-center py-2 px-2 text-[#FFF528] text-2xl ${
             location.pathname === '/' ? 'font-bold' : ''
           }`}

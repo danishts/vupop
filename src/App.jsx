@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Overview from './Overview';
 import Payouts from './Payouts';
 import Settings from './Settings';
-import Logout from './LogOut';
+import Logout from './Logout';
 import Layout from './Layout';
 import BroadcasterCharges from './BroadcasterCharges';
 import UserManagement from './UserManagement';
@@ -25,7 +25,7 @@ const App = () => {
           <Route path="/broadcasterCharges" element={<BroadcasterCharges />} />
           <Route path='marketingasset' element={ <Marketingasset/>} />
           <Route path="/settings" element={<Settings />} />
-          <Route path="/logout" element={<Logout />} />
+          <Route path="/logOut" element={<Logout />} />
         </Routes>
       </Layout>
     </Router>

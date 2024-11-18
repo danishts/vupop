@@ -1,6 +1,6 @@
 import React from 'react'
 
-function LogOut() {
+function Logout() {
   return (
     <div>
      <h1>malik is bck</h1> 
@@ -8,4 +8,4 @@ function LogOut() {
   )
 }
 
-export default LogOut
+export default Logout;
