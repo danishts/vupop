@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Overview from './Overview';
 import Payouts from './Payouts';
 import Settings from './Settings';
-import Logout from './Logout';
 import Layout from './Layout';
 import BroadcasterCharges from './BroadcasterCharges';
 import UserManagement from './UserManagement';
 import Marketingasset from './Marketingasset';
+import Logout from './Logout';
 const App = () => {
   const [isMobileSidebarOpen, setMobileSidebarOpen] = useState(false);
 
