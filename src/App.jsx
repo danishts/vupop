@@ -25,7 +25,7 @@ const App = () => {
           <Route path="/broadcasterCharges" element={<BroadcasterCharges />} />
           <Route path='marketingasset' element={ <Marketingasset/>} />
           <Route path="/settings" element={<Settings />} />
-          <Route path="/logOut" element={<Logout />} />
+          <Route path="/logout" element={<Logout />} />
         </Routes>
       </Layout>
     </Router>
